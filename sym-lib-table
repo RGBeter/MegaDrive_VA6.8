@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "SEGA")(type "KiCad")(uri "${KIPRJMOD}/SEGA.kicad_sym")(options "")(descr ""))
   (lib (name "ym2612")(type "Legacy")(uri "${KIPRJMOD}/ym2612.lib")(options "")(descr ""))
+  (lib (name "MD1_VA6.8")(type "KiCad")(uri "${KIPRJMOD}/MD1_VA6.8.kicad_sym")(options "")(descr ""))
 )
