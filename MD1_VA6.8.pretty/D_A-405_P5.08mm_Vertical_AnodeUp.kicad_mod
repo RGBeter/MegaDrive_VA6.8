@@ -1,0 +1,194 @@
+(footprint "D_A-405_P5.08mm_Vertical_AnodeUp"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode, A-405 series, Axial, Vertical, pin pitch=5.08mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
+	(tags "Diode A-405 series Axial Vertical pin pitch 5.08mm  length 5.2mm diameter 2.7mm")
+	(property "Reference" "REF**"
+		(at 8.128 0 180)
+		(layer "F.SilkS")
+		(uuid "c5283d89-de71-49e6-9586-45c6aeb8a01d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ISR35-100A"
+		(at 2.54 2.47 180)
+		(layer "F.Fab")
+		(uuid "701bccc1-09fc-4a0e-a214-f9f6ecd552cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "556d0a92-06ff-4e4e-bfa0-ce75606ba651")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88394e4e-17d3-4a00-9deb-90713fa38366")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "D"
+		(at -106.553 273.939 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c23730a1-6619-4ebc-ab8f-88d230708b8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=K 2=A"
+		(at -106.553 273.939 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28f9d98f-97cc-4ce1-abee-cc3095f1cfd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.47 0)
+		(end 3.88 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf2ed54a-db9b-45b3-98a5-8104878205f0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.47 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b55eb03d-d71e-4f3b-a5c5-0ae2791c2162")
+	)
+	(fp_rect
+		(start -1.6 -1.6)
+		(end 6.23 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fbb2b5f7-c33b-4b32-8b05-1c0775b4289c")
+	)
+	(fp_line
+		(start 0 0)
+		(end 5.08 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd06defa-1f00-4dca-8862-d99396463c68")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.35 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9df59f4b-90ad-4976-90ec-79e644a2052f")
+	)
+	(fp_text user "A"
+		(at 3.48 0.9 180)
+		(layer "F.SilkS")
+		(uuid "4dd5ccb2-4d93-44f3-8b11-9fadbabd5705")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "A"
+		(at 3.48 0.9 180)
+		(layer "F.Fab")
+		(uuid "73895d5a-b428-4826-b693-90061158e8c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 8.128 0 180)
+		(layer "F.Fab")
+		(uuid "d459f0d6-ea9a-4e3f-a797-4d3d93f1cc64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.138889)
+		(uuid "2435eec9-c532-4120-abbe-5fd1c139afef")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f1a00974-150f-4056-a91e-a2753dd4b09c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_A-405_P5.08mm_Vertical_AnodeUp.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

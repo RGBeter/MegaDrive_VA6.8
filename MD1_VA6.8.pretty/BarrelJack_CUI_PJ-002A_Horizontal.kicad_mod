@@ -1,0 +1,105 @@
+(footprint "BarrelJack_CUI_PJ-002A_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "https://www.mouser.de/datasheet/2/670/pj_002a-1778764.pdf")
+	(property "Reference" "REF**"
+		(at 0 0.8136 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0b252ae4-f89f-4ced-8b5a-436fd171e6f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jack-DC"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4490d6ff-a659-4468-b35a-8f582ff543c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "462aae7e-763b-4e8b-9626-5ea11f7d4d19")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4314a2de-a331-4713-ac84-52380e2a4d34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -8.6 10.8) (xy 3.1 10.8) (xy 3.1 9.7) (xy 5.8 9.7) (xy 5.8 2.6) (xy 3.1 2.6) (xy 3.1 1.8) (xy -8.6 1.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d25addea-91ab-4c7e-b1a8-af9f9456881f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8fc4f890-6c13-4dc8-9dec-eed0cc566003")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 5.1 6.3 90)
+		(size 6 2.54)
+		(drill oval 3.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "54d01dc5-5c0d-4699-8d23-b825f258610f")
+	)
+	(pad "2" thru_hole oval
+		(at -0.9 6.3 270)
+		(size 4.8 2.54)
+		(drill oval 3 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4d196697-186b-48cf-8fc4-73456f88d9de")
+	)
+	(pad "2" thru_hole oval
+		(at 2.1 11 180)
+		(size 4.8 2.54)
+		(drill oval 3 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e49d799c-7fb9-46fa-a773-65ae7814bf7e")
+	)
+	(embedded_fonts no)
+)

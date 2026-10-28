@@ -1,0 +1,224 @@
+(footprint "TO-220-3_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf, generated with kicad-footprint-generator TO_SOT_THT_generate.py")
+	(tags "TO-220-3 Vertical RM 2.54mm")
+	(property "Reference" "REF**"
+		(at 2.54 2.286 180)
+		(layer "F.SilkS")
+		(uuid "e4018dd5-9503-494e-b52f-21474f327dc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L7805"
+		(at 2.54 2.5 180)
+		(layer "F.Fab")
+		(uuid "50a6e55d-83ce-4025-b3a8-985a1bd3de08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5621d86d-0a06-4ef1-9547-2f866cb0c518")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c36332ad-d444-4380-8063-9c9838017bde")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.57 -3.26)
+		(end 7.65 -3.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f57b088-d832-470f-b7bc-4512ac70f2c7")
+	)
+	(fp_line
+		(start -2.57 -1.88)
+		(end 7.65 -1.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68ffcd0b-ffd4-4272-9b51-1eb584b00ab2")
+	)
+	(fp_line
+		(start -2.57 1.36)
+		(end -2.57 -3.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ffa2d82-1bc4-4578-9761-c8a5a22bffef")
+	)
+	(fp_line
+		(start 0.69 -3.26)
+		(end 0.69 -1.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9eee46da-0404-452a-8bd4-af7b8ff593b4")
+	)
+	(fp_line
+		(start 4.39 -3.26)
+		(end 4.39 -1.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9da2a07-a831-4d77-b563-21d1ba92c211")
+	)
+	(fp_line
+		(start 7.65 -3.26)
+		(end 7.65 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60973f1c-5df5-4231-89bc-526c05b3b649")
+	)
+	(fp_line
+		(start 7.65 1.36)
+		(end -2.57 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a614e4c-0f0f-422d-bc16-4beb571edac8")
+	)
+	(fp_rect
+		(start -2.71 -3.4)
+		(end 7.79 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2e2c5685-3b14-4517-ab1c-d68388907ac2")
+	)
+	(fp_line
+		(start -2.46 -1.88)
+		(end 7.54 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f19222b2-1255-4d9e-a42f-58fce38ff3e4")
+	)
+	(fp_line
+		(start 0.69 -3.15)
+		(end 0.69 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24916155-d587-44e5-afac-909f962991f3")
+	)
+	(fp_line
+		(start 4.39 -3.15)
+		(end 4.39 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "085aae0b-a160-430e-9e13-e5c3c464d4ba")
+	)
+	(fp_rect
+		(start -2.46 -3.15)
+		(end 7.54 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "47e329c6-fd5b-421c-adbb-5f631be7a01b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -0.95 0)
+		(layer "F.Fab")
+		(uuid "d093568b-2b3c-4e7f-bc9c-527314096292")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "041ec447-09b8-4e1b-a8bb-0fa71d94a94f")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc23ecf5-cb5e-49bb-af71-24aa86383547")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d91f496b-1ff0-4a06-a546-0737272a3cb3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

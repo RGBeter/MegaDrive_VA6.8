@@ -1,0 +1,369 @@
+(footprint "Oscillator_DIP-14"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Oscillator, DIP14, http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf")
+	(tags "oscillator")
+	(property "Reference" "REF**"
+		(at 7.62 -11.26 0)
+		(layer "F.SilkS")
+		(uuid "91348d49-903f-4922-a75b-4f20c17cd1fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CK5545AC"
+		(at 7.62 3.74 0)
+		(layer "F.Fab")
+		(uuid "0dda4469-a4f2-43ea-b893-1609ff2eec46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.golledge.com/pdf/products/tcxos/gtxos14.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54d1f554-bc21-4b79-a625-ef08c706c7fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Voltage-Controlled Crystal Clock Oscillator, DIP14-style metal package"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33063a8f-3a26-40a6-8f32-71ff8d72c21a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.83 -9.51)
+		(end -2.83 2.64)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfd0eaad-11e2-4ae4-8a51-2863b863d1b2")
+	)
+	(fp_line
+		(start -2.83 2.64)
+		(end 17.32 2.64)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6d82ab5-bba3-4246-a856-35267971afb4")
+	)
+	(fp_line
+		(start 17.32 -10.26)
+		(end -2.08 -10.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da8beef9-c582-4ad0-abd2-1735ccdf7f69")
+	)
+	(fp_line
+		(start 18.07 1.89)
+		(end 18.07 -9.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36468e42-fa5c-48e3-8506-c847eb6e33c4")
+	)
+	(fp_arc
+		(start -2.83 -9.51)
+		(mid -2.61033 -10.04033)
+		(end -2.08 -10.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b64639f5-4a30-49dd-9c9b-1bb4d5fa4f7d")
+	)
+	(fp_arc
+		(start 17.32 -10.26)
+		(mid 17.85033 -10.04033)
+		(end 18.07 -9.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa8b5e4a-3420-44ea-a58d-52fb9b109cb4")
+	)
+	(fp_arc
+		(start 18.07 1.89)
+		(mid 17.85033 2.42033)
+		(end 17.32 2.64)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c025b94-ac95-404a-b1f6-1919da3092dd")
+	)
+	(fp_line
+		(start -2.98 -10.41)
+		(end -2.98 2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f463f34-3f3f-4882-9853-8fd976a1e5d3")
+	)
+	(fp_line
+		(start -2.98 2.79)
+		(end 18.22 2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b633457-2920-40f4-8200-9161054b4375")
+	)
+	(fp_line
+		(start 18.22 -10.41)
+		(end -2.98 -10.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57fd7d20-ec80-4715-bb13-cc39ae57b373")
+	)
+	(fp_line
+		(start 18.22 2.79)
+		(end 18.22 -10.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "118f17ca-56d1-40fd-bf6f-138755bd5e2b")
+	)
+	(fp_line
+		(start -2.73 2.54)
+		(end -2.73 -9.51)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "acfe729b-8ed8-4630-8c07-a917544668f4")
+	)
+	(fp_line
+		(start -2.73 2.54)
+		(end 17.32 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "434d7dc5-a3d1-49a3-ada2-fd6c2094cfd4")
+	)
+	(fp_line
+		(start -2.08 -10.16)
+		(end 17.32 -10.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "113adace-d19e-4fa7-861e-7ebc38d81e7d")
+	)
+	(fp_line
+		(start -1.73 1.54)
+		(end -1.73 -8.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "41f2eec6-7e32-49e6-9cbf-d55cff325c16")
+	)
+	(fp_line
+		(start -1.73 1.54)
+		(end 16.62 1.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2378acb3-5538-4cc5-ace8-529424f3a4c6")
+	)
+	(fp_line
+		(start -1.38 -9.16)
+		(end 16.62 -9.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "574733b7-b7ac-4401-b54b-45f77ab47011")
+	)
+	(fp_line
+		(start 16.97 1.19)
+		(end 16.97 -8.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff750ba7-16b2-40d1-9e00-37e81c50a667")
+	)
+	(fp_line
+		(start 17.97 -9.51)
+		(end 17.97 1.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9a5e1c2-52b6-4860-9f10-cdd433f03316")
+	)
+	(fp_arc
+		(start -2.73 -9.51)
+		(mid -2.539619 -9.969619)
+		(end -2.08 -10.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "558bb185-cb4c-4cbe-96c7-c7dd1d5319fb")
+	)
+	(fp_arc
+		(start -1.73 -8.81)
+		(mid -1.627487 -9.057487)
+		(end -1.38 -9.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d41bcaa8-fdf6-43ed-8eb4-93a1fe1da6bc")
+	)
+	(fp_arc
+		(start 16.62 -9.16)
+		(mid 16.867487 -9.057487)
+		(end 16.97 -8.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e1a214c-082c-479f-b345-7d6aedba3d07")
+	)
+	(fp_arc
+		(start 16.97 1.19)
+		(mid 16.867487 1.437487)
+		(end 16.62 1.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "160465fc-bdac-4f8d-8b12-784c8846ee8e")
+	)
+	(fp_arc
+		(start 17.32 -10.16)
+		(mid 17.779619 -9.969619)
+		(end 17.97 -9.51)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4920c843-3e48-4b92-8edc-8a9e5f3911ea")
+	)
+	(fp_arc
+		(start 17.97 1.89)
+		(mid 17.779619 2.349619)
+		(end 17.32 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9a32252-7ab4-4687-a151-2b39ff3f3752")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.62 -3.81 0)
+		(layer "F.Fab")
+		(uuid "407b2772-79f9-465d-8321-cb5c4b38f226")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8a9f053c-0391-4a82-8721-3ba6ba4a8801")
+	)
+	(pad "7" thru_hole circle
+		(at 15.24 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b9146ad-96d2-41cd-a5f8-6c4c4dd74c5a")
+	)
+	(pad "8" thru_hole circle
+		(at 15.24 -7.62)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1a29632d-ff8a-4eef-984d-59a5d1edb6ed")
+	)
+	(pad "14" thru_hole circle
+		(at 0 -7.62)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec6305fb-b17e-4f46-aa51-b3c68e75649c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_DIP-14.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

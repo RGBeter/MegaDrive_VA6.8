@@ -1,0 +1,202 @@
+(footprint "LairdTech_28C0236-0JW-10"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters")
+	(tags "Ferrite vertical LairdTech 28C0236-0JW-10")
+	(property "Reference" "REF**"
+		(at 8.382 -0.127 0)
+		(layer "F.SilkS")
+		(uuid "7a0ebf59-4a46-4e2a-b566-f903445eb8aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FerriteBead"
+		(at 2.54 4.953 0)
+		(layer "F.Fab")
+		(uuid "5e2b8cde-9725-4881-93f9-e884e88f8689")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f334204-5194-4796-9876-1039c5d734e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "693a6df2-6da0-47cb-89bc-ab1cde0fe126")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start -0.508 1.27)
+		(mid -1.367832 0)
+		(end -0.508 -1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1cddcc1b-88dc-4144-81c1-0eafeb7cf93c")
+	)
+	(fp_arc
+		(start 0.239932 -2.300068)
+		(mid 2.71988 -3.24781)
+		(end 5.08 -2.032)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c30afcad-aa25-4418-93a4-a3617911abd9")
+	)
+	(fp_arc
+		(start 5.064465 2.019572)
+		(mid 2.71878 3.227946)
+		(end 0.254 2.286)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b962089-d52f-4eb4-a1d6-0822e2ec0864")
+	)
+	(fp_arc
+		(start 5.588 -1.27)
+		(mid 6.447832 0)
+		(end 5.588 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e466a4e-8330-471c-8fdc-678b767feb53")
+	)
+	(fp_circle
+		(center 2.54 0)
+		(end 6.48 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d7f3bc6a-033b-4928-8cb8-1102e9e5273b")
+	)
+	(fp_line
+		(start 0 -1.145)
+		(end 5.08 -1.145)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0a5d55a-3250-4c19-b25f-64cb2d3bf35a")
+	)
+	(fp_line
+		(start 0 1.145)
+		(end 5.08 1.145)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f9deb85-acca-4b81-a953-6b35249f126e")
+	)
+	(fp_arc
+		(start 0 1.145)
+		(mid -1.145 0)
+		(end 0 -1.145)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45cc2f58-9784-4673-ae06-1a2ae77a1076")
+	)
+	(fp_arc
+		(start 5.08 -1.145)
+		(mid 6.225 0)
+		(end 5.08 1.145)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8630f3eb-2302-4bc8-9d1a-69212121afc4")
+	)
+	(fp_circle
+		(center 2.54 0)
+		(end 5.54 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6f8604f7-7a22-40a9-a9c9-9f3ed3a19e71")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(uuid "a09ffe97-923d-4460-8a32-93f1cd54bf26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ce5fc1f3-fa15-431c-baf2-a320ca9d1722")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "97b9b0de-020c-4ed3-af87-c4c86d55c2ac")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Ferrite_THT.3dshapes/LairdTech_28C0236-0JW-10.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
